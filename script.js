@@ -4,7 +4,7 @@ let isFull = false;
 let isWin = false;
 let tin = new Audio("tin.mp3");
 let winAudio = new Audio("win.wav");
-let mq = window.matchMedia("( max-width:370px) and ( max-height:700px)");
+let mq = window.matchMedia("( max-width:500px) ");
 
 const change  = ()=>{
     return turn==="X"?"O":"X";
