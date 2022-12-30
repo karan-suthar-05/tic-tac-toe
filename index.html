@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="title">Tic Tac Toe</h2>
+    <div id="score">
+        <h2>X : <span id="X">0</span></h2>
+        <h2>O : <span id="O">0</span></h2>
+    </div>
+    <div id="main">
+        <div class="line" hidden></div>
+        <div class="box"><h2 class="boxi br br-left br-top"></h2></div>
+        <div class="box"><h2 class="boxi br br-top"></h2></div>
+        <div class="box"><h2 class="boxi br br-top br-right"></h2></div>
+        <div class="box"><h2 class="boxi br br-left"></h2></div>
+        <div class="box"><h2 class="boxi br"></h2></div>
+        <div class="box"><h2 class="boxi br br-right "></h2></div>
+        <div class="box"><h2 class="boxi br br-left br-bottom   "></h2></div>
+        <div class="box"><h2 class="boxi br br-bottom"></h2></div>
+        <div class="box"><h2 class="boxi br br-bottom br-right"></h2></div>
+    </div>
+    <div id="text">
+        <h2 id="ct">Current Turn : <span id="xo">X</span></h2>
+        <h2 id="h2" hidden><span id="turn">X</span> <span id="winLose">Win</span></h2>
+        <img id="img" src="doll.gif" alt="">
+    </div>
+    <div id="btn"><button id="rbtn">Restart</button></div>
+    <script src="script.js"></script>
+</body>
+</html>
